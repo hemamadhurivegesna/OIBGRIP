@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main class='main'>
+      <nav class='navBar'>
+        <h1>VEGESNA HEMA MADHURI</h1>
+        <div class='navigationMenu'>
+          <a href="#aboutMe">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contactForm">Let's Connect!</a>
+        <div>
+      </nav>
+      <section class='heroSection'>
+        <img 
+        class='profileImage'
+        src="https://tse4.mm.bing.net/th?id=OIP.2W2pbGO8n8eL0l-CIDvAnwHaHa&pid=Api&P=0">
+        <div class='herosectionDetails'>
+          <h1>Hema Madhuri</h1>
+          <h3> Student at SVECW </h3>
+        </div>
+      </section>
+      <section class='aboutMe' id='aboutMe'>
+        <h1>What I Do</h1>
+        <p>Currently , I'm pursuing B.Tech 3nd year at Shri Vishnu Engineering College For Women. I had a keen interest in computers, hence i chose Computer Science and Engineering, as I want to pursue my career in Computer Science. I love Photography. Interest in exploring emerging technologies like cloud computing and virtualization.
+To learn how to use operating systems like Linux, UNIX etc.
+Interested in fashion designing.
+Love learning new programming language .
+Seeking challenging opportunities to develop complex database driven websites which can be used by people from all over the world.
+To learn how to design, develop and maintain high performing websites.
+Concerned about learning new technologies in order to stay competitive in the industry.</p>
+      </section>
+      <section class='skillsAndProjects'>
+        <div class='skills' id='skills'>
+          <h1 class='cardHeading'>Skills</h1>
+          <img title='HTML' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRueb-MzLokU1TJ5mBzlDrGmMnZRG1LuhPvxg&usqp=CAU'>
+          <img title='CSS' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3rE9Rbpo-xRTbX-uaOheTq9fHsuY_AMsJyw&usqp=CAU'>
+          <img title='Javascript' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9nrICpYh0SxPwqjPXt53duU6t1lBOWfw6JA&usqp=CAU'>
+          <img title='python' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT54puClf9z8N-bL0lVKEKRWO6CaJABKu6aRQ&usqp=CAU'>
+        </div>
+        <div class='projects' id='projects'>
+          <h1 class='cardHeading'>Projects</h1>
+          <div class='projectContainer'>
+            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgRobsLSvF8fxYU1kewac09_W6aPvvh9QHjg&usqp=CAU'/>
+            <div class='projectDescription'>
+              <h4>Connect4 game</h4>
+              <p>Developed this game using python and latex programming languages.</p>
+            </div>
+          </div>
+          <div class='projectContainer'>
+            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScHUfBPfDwCayL3Ysjs9KyrrhOMz5aULYLbQ&usqp=CAU'/>
+            <div class='projectDescription'>
+              <h4>Gmail Login page</h4>
+              <p>Developed gmail login page using HTML,CSS,JavaScript</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class='contactForm' id='contactForm'>
+        <h1>Let's Connect!</h2>
+        <div class='formGroup'>
+          <label for='name'>Enter  Name</label><br/>
+          <input type='text' id='name' placeholder='Full Name'/>
+        </div>
+        <div class='formGroup'>
+          <label for='email'>Email</label><br/>
+          <input type='text' id='email' placeholder='Email'/>
+        </div>
+        <div class='formGroup'>
+          <label for='message'>Message</label><br/>
+          <textarea placeholder="Send some message!" id="message" name="w3review" rows="4" cols="50"></textarea>
+        </div>
+        <button class='submitButton' onClick={submit()}>Connect</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
